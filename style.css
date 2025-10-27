@@ -1,0 +1,57 @@
+
+:root{
+    --main-color: #d3ad7f;
+    --black:#13131a;
+    --bg: #010103da; /* background */
+    --bordap: 0.1rem solid rgba(0, 0, 0, 0.3);
+    font-size:10px;
+
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    outline: none; 
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    box-sizing: border-box;
+
+}
+
+.body{
+    background: var(--bg);
+    
+}
+/* quero mexer o icone cafe, trazer mais pro meio da tela */
+.header{
+    
+    position: fixed;
+    top :0;
+    left:0;
+    right:0;
+    z-index:99;
+    border-bottom: var(--bordap);
+    background: var(--bg);
+
+
+
+
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.8rem;
+    padding-bottom: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+}
+
